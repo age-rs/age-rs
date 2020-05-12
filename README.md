@@ -1,6 +1,7 @@
 # age-rs [![Bors enabled](https://bors.tech/images/badge_small.svg)](https://app.bors.tech/repositories/24826)
 
 ##### Cross-platform RTS game engine based on Age of Empires mechanics
+
 For now we focus to port [`nyan`](https://github.com/SFTtech/nyan) and [`libopenage` (part of openage)](https://github.com/SFTtech/openage/tree/master/libopenage) 
 to [rust-lang](https://www.rust-lang.org/) and create a stable toolchain around it. Both are part of the engine core of [openage](https://github.com/SFTtech/openage/) which is
 written mainly in **C++17** and **Python 3**. While we are trying to stick to fundamental design decisions (regarding e.g. architecture, multiplayer) that 

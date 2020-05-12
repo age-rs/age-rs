@@ -1,4 +1,4 @@
-name: windows
+name: Run age-rs tests
 on: [push, pull_request]
 
 env:
