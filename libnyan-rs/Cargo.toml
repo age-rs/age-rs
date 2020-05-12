@@ -20,9 +20,13 @@ include = [
 
 [dependencies]
 
+[build-dependencies]
+bindgen = "0.53.2"
+
 [lib]
 name = "libnyan_rs"
-crate-type = ["staticlib", "cdylib", "rlib", "dylib"]
+#crate-type = ["staticlib", "cdylib", "rlib", "dylib"]
+crate-type = ["rlib"]
 path = "src/lib.rs"
 test = true
 doc = true
