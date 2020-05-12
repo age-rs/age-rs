@@ -1,0 +1,6 @@
+[submodule "openage"]
+	path = openage
+	url = https://github.com/simonsan/openage
+[submodule "nyan"]
+	path = nyan
+	url = https://github.com/simonsan/nyan
