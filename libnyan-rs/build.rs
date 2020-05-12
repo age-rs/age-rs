@@ -20,6 +20,9 @@ fn main() {
         // The input header we would like to generate
         // bindings for.
         .header("./nyan/nyan/nyan.h")
+		.enable_cxx_namespaces()
+		.detect_include_paths(true)
+		.clang_args(&["-x", "c++", "-v", "-std=c++17"])
         // Tell cargo to invalidate the built crate whenever any of the
         // included header files changed.
         .parse_callbacks(Box::new(bindgen::CargoCallbacks))
