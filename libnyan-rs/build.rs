@@ -1,7 +1,9 @@
 extern crate bindgen;
 
-use std::env;
-use std::path::PathBuf;
+use std::{
+	env,
+	path::PathBuf,
+};
 
 fn main() {
 	// Tell cargo to tell rustc to link the system bzip2
