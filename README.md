@@ -1,4 +1,4 @@
-# age-rs [![Bors enabled](https://bors.tech/images/badge_small.svg)](https://app.bors.tech/repositories/24826)
+# age-rs [![GPLv3+](https://www.gnu.org/graphics/gplv3-or-later.svg)](https://www.gnu.org/licenses/gpl-3.0.txt)  [![Bors enabled](https://bors.tech/images/badge_small.svg)](https://app.bors.tech/repositories/24826)
 
 ##### Cross-platform RTS game engine based on Age of Empires mechanics
 
@@ -10,7 +10,6 @@ easily and efficiently.
 
 Goals
 -----
-
 * reimplement `nyan`
 * reimplement `libopenage`
 * create a stable `rust/python-interface`
@@ -24,13 +23,11 @@ Goals
 
 Current State of the Project
 ----------------------------
-
 This project has just begun, if you are eager to help feel free to contribute or open an issue to get in touch.
 You can also send me a message on Discord: `simonsanone#4039`
 
 Cloning this repository
 -----------------------
-
 As we are dealing with git submodules here, you should use the following command to clone, initialize and update:
 
 `git clone --recurse-submodules https://github.com/age-rs/age-rs.git`
@@ -39,7 +36,6 @@ If you need more information you find them here in the [Git submodules documenta
 
 How to contribute?
 ------------------
-
 If you want to contribute to this project feel free to do so. The easiest way would be that you fork this repository, 
 create a branch for the things you want to do and make a PR to this main repository.
 
@@ -48,7 +44,6 @@ We've collected some essential knowledge about contributions in [contributing](d
 
 Dependencies, Building and Running
 ----------------------------------
-
 - You will need everything that is stated in the [openage build documentation](https://github.com/simonsan/openage/blob/master/doc/building.md)
     - so you will need to be able to build openage it self for the beginning
     - if you have any questions, feel free to ask either the openage-authors or send me a message on Discord (`simonsanone#4039`) 
@@ -59,7 +54,6 @@ some things in/out for compatibility reasons
 
 License
 -------
-
 **GNU GPLv3** or later; see [COPYING.md](COPYING.md) and [LICENSE](LICENSE).
 
 I know that probably nobody is ever gonna look at the `COPYING` file,

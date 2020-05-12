@@ -1,0 +1,40 @@
+[package]
+name = "age-rs"
+version = "0.1.0"
+edition = "2018"
+authors = ["the age-rs authors"]
+description = "Cross-platform RTS game engine based on Age of Empires mechanics written in Rust"
+repository = "https://github.com/age-rs/age-rs"
+documentation = "https://docs.rs/age-rs/"
+readme = "README.md"
+keywords = ["age of empires", "rts", "gamedev", "crossplatform"]
+categories = ["game engine"]
+license = "GPL-3.0-or-later"
+
+include = [
+    "Cargo.toml",
+    "LICENSE",
+    "COPYING.md",
+    "Readme.md",
+    "libnyan-rs/**/*",
+    "libopenage-rs/**/*"
+]
+
+exclude = []
+
+[workspace]
+members = ["libnyan-rs", "libopenage-rs"]
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+
+[dev-dependencies]
+lazy_static = "1.4.0"
+pretty_assertions = "0.6.1"
+
+[package.metadata.release]
+upload-doc = true
+no-dev-version = true
+pre-release-commit-message = "Release {{crate_name}} {{version}} / {{date}}"
