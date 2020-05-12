@@ -16,6 +16,12 @@ Cargo.lock
 /.idea/modules.xml
 /.idea/vcs.xml
 
+# Binaries
+libnyan-rs/libnyan.dll.a
+libnyan-rs/libnyan.dll
+
+# Header files
+libnyan-rs/nyan.h
 
 #Added by cargo
 
