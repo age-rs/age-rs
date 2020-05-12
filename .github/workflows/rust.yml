@@ -1,4 +1,4 @@
-name: Run age-rs tests
+name: age-rs tests
 on: [push, pull_request]
 
 env:
