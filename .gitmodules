@@ -1,6 +1,6 @@
 [submodule "openage"]
-	path = libopenage-rs/openage
+	path = openage
 	url = https://github.com/simonsan/openage
 [submodule "nyan"]
-	path = libnyan-rs/nyan
+	path = nyan
 	url = https://github.com/simonsan/nyan
