@@ -36,6 +36,15 @@ As we are dealing with git submodules here, you should use the following command
 
 If you need more information you find them here in the [Git submodules documentation](https://web.archive.org/web/20200508192857/https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 
+How to contribute?
+------------------
+
+If you want to contribute to this project feel free to do so. The easiest way would be that you fork this repository, 
+create a branch for the things you want to do and make a PR to this main repository.
+
+We've collected some essential knowledge about contributions in [contributing](doc/contributing.md), please read it.
+
+
 Dependencies, Building and Running
 ----------------------------------
 
