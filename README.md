@@ -1,4 +1,5 @@
-# age-rs
+# age-rs [![Bors enabled](https://bors.tech/images/badge_small.svg)](https://app.bors.tech/repositories/24826)
+
 ##### Cross-platform RTS game engine based on Age of Empires mechanics
 
 For now we focus to port [`nyan`](https://github.com/SFTtech/nyan) and [`libopenage` (part of openage)](https://github.com/SFTtech/openage/tree/master/libopenage) 
