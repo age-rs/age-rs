@@ -1,4 +1,4 @@
-# age-rs [![Bors enabled](https://bors.tech/images/badge_small.svg)](https://app.bors.tech/repositories/24826)
+# age-rs [![GPLv3+](https://www.gnu.org/graphics/gplv3-or-later.svg)](https://www.gnu.org/licenses/gpl-3.0.txt)  [![Bors enabled](https://bors.tech/images/badge_small.svg)](https://app.bors.tech/repositories/24826)
 
 ##### Cross-platform RTS game engine based on Age of Empires mechanics
 
