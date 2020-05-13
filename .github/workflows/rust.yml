@@ -1,5 +1,15 @@
 name: age-rs tests
-on: [push, pull_request]
+on:
+  push:
+    branches:    
+    - staging
+    - trying
+    - master
+  pull_request:
+    branches:
+    - staging
+    - trying
+    - master
 
 env:
   RUST_BACKTRACE: 1
