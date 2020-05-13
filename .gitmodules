@@ -4,3 +4,6 @@
 [submodule "libnyan-rs/nyan"]
 	path = libnyan-rs/nyan
 	url = https://github.com/simonsan/nyan
+[submodule "libnyan-rs/jnyan"]
+	path = libnyan-rs/jnyan
+	url = https://github.com/simonsan/jnyan.git
