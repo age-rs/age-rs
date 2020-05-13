@@ -1,4 +1,19 @@
+# Test suite must pass github workflow before merging into `master`.
 status = [
   "age-rs tests"
 ]
+
+# Do not allow pull requests with these labels to be merged.
+block_labels = [
+    "blocked",
+    "discussing",
+    "in progress",
+    "needs triage"
+]
+
+# This feature is rarely useful and more often problematic, so we turn it off.
+delete_merged_branches = false
+
+# We don't want to clutter the repository history with commit messages, 
+# so we squash them to one commit before merging
 use_squash_merge = true
