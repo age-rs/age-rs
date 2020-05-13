@@ -1,5 +1,11 @@
 # Test suite must pass github workflow before merging into `master`.
-status = [ "Build" ]
+status = [ "%" ]
+
+pr_status = [ 
+	"Build",
+	"Check",
+	"Test Suite"
+]
 
 # Do not allow pull requests with these labels to be merged.
 block_labels = [
