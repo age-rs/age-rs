@@ -39,7 +39,7 @@ How to contribute?
 If you want to contribute to this project feel free to do so. The easiest way would be that you fork this repository, 
 create a branch for the things you want to do and make a PR to this main repository.
 
-We've collected some essential knowledge about contributions in [contributing](doc/contributing.md), please read it.
+We've collected some essential knowledge about contributions in [contributing](CONTRIBUTING.md), please read it.
 
 
 Dependencies, Building and Running
