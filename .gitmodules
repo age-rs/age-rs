@@ -1,9 +1,9 @@
 [submodule "libopenage-rs/openage"]
-	path = libopenage-rs/openage
+	path = crates/libopenage-rs/openage
 	url = https://github.com/simonsan/openage
 [submodule "libnyan-rs/nyan"]
-	path = libnyan-rs/nyan
+	path = crates/libnyan-rs/nyan
 	url = https://github.com/simonsan/nyan
 [submodule "libnyan-rs/jnyan"]
-	path = libnyan-rs/jnyan
+	path = crates/libnyan-rs/jnyan
 	url = https://github.com/simonsan/jnyan.git

@@ -23,7 +23,10 @@ include = [
 exclude = []
 
 [workspace]
-members = ["libnyan-rs", "libopenage-rs"]
+members = [
+    "crates/libnyan-rs",
+    "crates/libopenage-rs"
+]
 
 [badges]
 maintenance = { status = "actively-developed" }
