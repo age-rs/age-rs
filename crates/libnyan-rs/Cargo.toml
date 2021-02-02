@@ -21,7 +21,7 @@ include = [
 [dependencies]
 
 [build-dependencies]
-bindgen = "0.56.0"
+bindgen = "0.57.0"
 
 [lib]
 name = "libnyan_rs"
