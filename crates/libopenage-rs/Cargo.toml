@@ -29,7 +29,7 @@ doc = true
 
 [dev-dependencies]
 lazy_static = "1.4.0"
-pretty_assertions = "0.7.1"
+pretty_assertions = "1.0.0"
 
 [package.metadata.release]
 upload-doc = true
